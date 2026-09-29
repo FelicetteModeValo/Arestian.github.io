@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARESTIAN DARELL - Elektronika & Teknik</title>
+    <title>Portofolio Saya - Elektronika & Teknik</title>
     <!-- Menggunakan Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* Efek Langit Malam & Bintang-bintang */
+        /* Efek Langit Malam Biru & Bintang-bintang */
         body {
-            background: linear-gradient(to bottom, #020617, #0f172a, #1e1b4b);
+            /* Warna biru langit malam */
+            background: linear-gradient(to bottom, #081229, #0f1c3f, #060913);
             color: #e2e8f0;
             position: relative;
             overflow-x: hidden;
@@ -22,54 +23,53 @@
                 radial-gradient(1px 1px at 90px 40px, #93c5fd, rgba(0,0,0,0)),
                 radial-gradient(2px 2px at 160px 120px, #ffffff, rgba(0,0,0,0)),
                 radial-gradient(1.5px 1.5px at 230px 180px, #e0f2fe, rgba(0,0,0,0)),
-                radial-gradient(2px 2px at 300px 90px, #ffffff, rgba(0,0,0,0));
+                radial-gradient(2px 2px at 300px 90px, #ffffff, rgba(0,0,0,0)),
+                radial-gradient(1px 1px at 350px 250px, #93c5fd, rgba(0,0,0,0)),
+                radial-gradient(2px 2px at 400px 150px, #ffffff, rgba(0,0,0,0));
             background-repeat: repeat;
-            background-size: 350px 350px;
+            background-size: 400px 400px;
         }
     </style>
 </head>
 <body class="stars font-sans leading-relaxed">
 
     <!-- HEADER / NAVBAR -->
-    <header class="fixed top-0 left-0 w-full bg-slate-950/80 backdrop-blur-md shadow-lg z-50 border-b border-indigo-900/40">
+    <header class="fixed top-0 left-0 w-full bg-slate-950/80 backdrop-blur-md shadow-lg z-50 border-b border-blue-900/40">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-sky-400">Portofolio<span class="text-white">.</span></a>
+            <a href="#" class="text-xl font-bold text-blue-400">Portofolio<span class="text-white">.</span></a>
             <nav class="hidden md:flex space-x-8 font-medium text-sm text-slate-300">
-                <a href="#tentang" class="hover:text-sky-400 transition">Tentang</a>
-                <a href="#proyek" class="hover:text-sky-400 transition">Proyek</a>
-                <a href="#keahlian" class="hover:text-sky-400 transition">Keahlian</a>
-                <a href="#kontak" class="hover:text-sky-400 transition">Kontak</a>
+                <a href="#tentang" class="hover:text-blue-400 transition">Tentang</a>
+                <a href="#proyek" class="hover:text-blue-400 transition">Proyek</a>
+                <a href="#keahlian" class="hover:text-blue-400 transition">Keahlian</a>
+                <a href="#kontak" class="hover:text-blue-400 transition">Kontak</a>
             </nav>
-            <a href="#kontak" class="bg-sky-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-sky-500 transition hidden md:block shadow-md shadow-sky-900/50">Hubungi Saya</a>
+            <a href="#kontak" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-500 transition hidden md:block shadow-md shadow-blue-900/50">Hubungi Saya</a>
         </div>
     </header>
 
     <!-- HERO SECTION -->
     <section class="pt-32 pb-20 md:pt-40 md:pb-32 px-6 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
         <div class="flex-1 text-center md:text-left">
-            <span class="bg-sky-950 text-sky-300 border border-sky-800/60 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Halo, Selamat Datang</span>
-            <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 tracking-tight text-white">Saya <span class="text-sky-400">Aresbian Daret</span></h1>
+            <span class="bg-blue-950 text-blue-300 border border-blue-800/60 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Halo, Selamat Datang</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 tracking-tight text-white">Saya <span class="text-blue-400">Aresbian Daret</span></h1>
             <p class="text-slate-300 text-lg mb-8 max-w-xl">Siswa/Praktisi Teknik Audio Video / Elektronika yang berfokus pada perancangan PCB, sistem mikrokontroler, dan instalasi perangkat keras.</p>
             <div class="flex justify-center md:justify-start gap-4">
-                <a href="#proyek" class="bg-sky-600 text-white font-medium px-6 py-3 rounded-xl shadow-lg shadow-sky-900/50 hover:bg-sky-500 transition">Lihat Proyek</a>
-                <a href="https://github.com/username-anda" target="_blank" class="border border-slate-700 bg-slate-900/50 text-slate-200 font-medium px-6 py-3 rounded-xl hover:bg-slate-800 transition flex items-center gap-2">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
+                <a href="#proyek" class="bg-blue-600 text-white font-medium px-6 py-3 rounded-xl shadow-lg shadow-blue-900/50 hover:bg-blue-500 transition">Lihat Proyek</a>
             </div>
         </div>
         <div class="flex-shrink-0">
-            <!-- Foto Profil (Gambar 5) -->
-            <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-sky-500/40 shadow-2xl bg-slate-800">
+            <!-- Foto Profil -->
+            <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-blue-500/40 shadow-2xl bg-slate-800">
                 <img src="417150.png" alt="Foto Profil Aresbian Daret" class="w-full h-full object-cover">
             </div>
         </div>
     </section>
 
     <!-- TENTANG SAYA -->
-    <section id="tentang" class="py-20 bg-slate-900/60 backdrop-blur-sm px-6 border-y border-indigo-950">
+    <section id="tentang" class="py-20 bg-slate-900/40 backdrop-blur-sm px-6 border-y border-blue-950">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-3xl font-bold text-center mb-4 text-white">Tentang Saya</h2>
-            <div class="w-16 h-1 bg-sky-500 mx-auto mb-10 rounded"></div>
+            <div class="w-16 h-1 bg-blue-500 mx-auto mb-10 rounded"></div>
             <p class="text-slate-300 text-center text-base md:text-lg leading-relaxed">
                 Memiliki ketertarikan mendalam dalam bidang teknik elektronika, perancangan perangkat keras (hardware), pembuatan tata letak PCB, serta pemrograman sistem embedded untuk otomatisasi dan kelistrikan.
             </p>
@@ -79,77 +79,57 @@
     <!-- PROYEK SECTION -->
     <section id="proyek" class="py-20 px-6 max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center mb-4 text-white">Proyek Unggulan</h2>
-        <div class="w-16 h-1 bg-sky-500 mx-auto mb-12 rounded"></div>
+        <div class="w-16 h-1 bg-blue-500 mx-auto mb-12 rounded"></div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <!-- Proyek 1: Robot 4WD -->
-            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col">
-                <img src="657529.jpg" alt="Robot 4WD" class="w-full h-56 object-cover">
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col hover:border-blue-500/50 transition">
+                <img src="657527.jpg" alt="Robot 4WD" class="w-full h-56 object-cover">
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="font-bold text-xl mb-2 text-white">Robot 4WD</h3>
-                    <p class="text-slate-300 text-sm mb-4 flex-grow">Perakitan chassis robot penggerak empat roda (4WD) lengkap dengan modul kontroler mikrokontroler untuk navigasi dan mobilitas cerdas.</p>
-                    <div class="flex flex-wrap gap-2 mb-6">
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Arduino IDE</span>
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Hardware</span>
-                    </div>
-                    <div class="flex items-center pt-4 border-t border-slate-800">
-                        <a href="https://github.com/username-anda/robot-4wd" target="_blank" class="text-sm font-semibold text-sky-400 hover:underline flex items-center gap-1">
-                            <i class="fab fa-github"></i> Kode Repo GitHub
-                        </a>
+                    <p class="text-slate-300 text-sm mb-4 flex-grow">Perakitan chassis dan pengkabelan sistem mikrokontroler untuk robot penggerak empat roda (4WD) agar dapat bermanuver secara presisi.</p>
+                    <div class="flex flex-wrap gap-2 mt-auto">
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Arduino IDE</span>
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Hardware</span>
                     </div>
                 </div>
             </div>
 
             <!-- Proyek 2: Amplifier OCL -->
-            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col">
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col hover:border-blue-500/50 transition">
                 <img src="657526.jpg" alt="Amplifier OCL" class="w-full h-56 object-cover">
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="font-bold text-xl mb-2 text-white">Amplifier OCL</h3>
-                    <p class="text-slate-300 text-sm mb-4 flex-grow">Perakitan rangkaian penguat daya audio OCL (Output Capacitorless) untuk menghasilkan sinyal suara berdaya tinggi yang jernih dan stabil.</p>
-                    <div class="flex flex-wrap gap-2 mb-6">
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Proteus</span>
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Audio System</span>
-                    </div>
-                    <div class="flex items-center pt-4 border-t border-slate-800">
-                        <a href="https://github.com/username-anda/amplifier-ocl" target="_blank" class="text-sm font-semibold text-sky-400 hover:underline flex items-center gap-1">
-                            <i class="fab fa-github"></i> Kode Repo GitHub
-                        </a>
+                    <p class="text-slate-300 text-sm mb-4 flex-grow">Perakitan rangkaian penguat daya audio OCL (Output Capacitorless) untuk menghasilkan sinyal suara berdaya tinggi dan stabil.</p>
+                    <div class="flex flex-wrap gap-2 mt-auto">
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Proteus</span>
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Audio System</span>
                     </div>
                 </div>
             </div>
 
             <!-- Proyek 3: Pembangkit Listrik Tenaga Surya -->
-            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col">
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col hover:border-blue-500/50 transition">
                 <img src="657530.jpg" alt="Pembangkit Listrik Tenaga Surya" class="w-full h-56 object-cover">
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="font-bold text-xl mb-2 text-white">Pembangkit Listrik Tenaga Surya (PLTS)</h3>
-                    <p class="text-slate-300 text-sm mb-4 flex-grow">Instalasi sistem energi terbarukan mini menggunakan panel surya, solar charge controller, dan baterai untuk penyimpanan serta penyaluran daya listrik mandiri.</p>
-                    <div class="flex flex-wrap gap-2 mb-6">
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">AutoCAD</span>
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Renewable Energy</span>
-                    </div>
-                    <div class="flex items-center pt-4 border-t border-slate-800">
-                        <a href="https://github.com/username-anda/plts-mini" target="_blank" class="text-sm font-semibold text-sky-400 hover:underline flex items-center gap-1">
-                            <i class="fab fa-github"></i> Kode Repo GitHub
-                        </a>
+                    <p class="text-slate-300 text-sm mb-4 flex-grow">Instalasi kelistrikan energi terbarukan mini menggunakan panel surya, solar charge controller, dan baterai untuk penyaluran beban DC.</p>
+                    <div class="flex flex-wrap gap-2 mt-auto">
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">AutoCAD</span>
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">Renewable Energy</span>
                     </div>
                 </div>
             </div>
 
             <!-- Proyek 4: Rangkaian Driver Motor pada EagleCAD -->
-            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col">
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden shadow-xl flex flex-col hover:border-blue-500/50 transition">
                 <img src="657531.jpg" alt="Rangkaian Driver Motor EagleCAD" class="w-full h-56 object-cover">
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="font-bold text-xl mb-2 text-white">Rangkaian Driver Motor pada EagleCAD</h3>
-                    <p class="text-slate-300 text-sm mb-4 flex-grow">Perancangan tata letak skematik dan jalur PCB (layout) rangkaian driver motor menggunakan perangkat lunak EagleCAD untuk mengontrol arah dan kecepatan motor.</p>
-                    <div class="flex flex-wrap gap-2 mb-6">
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">eagleCAD</span>
-                        <span class="bg-sky-950 text-sky-300 border border-sky-800/40 text-xs px-2.5 py-1 rounded-md font-medium">PCB Design</span>
-                    </div>
-                    <div class="flex items-center pt-4 border-t border-slate-800">
-                        <a href="https://github.com/username-anda/driver-motor-pcb" target="_blank" class="text-sm font-semibold text-sky-400 hover:underline flex items-center gap-1">
-                            <i class="fab fa-github"></i> Kode Repo GitHub
-                        </a>
+                    <p class="text-slate-300 text-sm mb-4 flex-grow">Pembuatan skematik dan perancangan tata letak (layout) PCB untuk modul driver motor menggunakan perangkat lunak eagleCAD.</p>
+                    <div class="flex flex-wrap gap-2 mt-auto">
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">eagleCAD</span>
+                        <span class="bg-blue-950 text-blue-300 border border-blue-800/40 text-xs px-2.5 py-1 rounded-md font-medium">PCB Design</span>
                     </div>
                 </div>
             </div>
@@ -157,26 +137,27 @@
     </section>
 
     <!-- KEAHLIAN SECTION -->
-    <section id="keahlian" class="py-20 bg-slate-900/60 backdrop-blur-sm px-6 border-y border-indigo-950">
+    <section id="keahlian" class="py-20 bg-slate-900/40 backdrop-blur-sm px-6 border-y border-blue-950">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4 text-white">Keahlian & Teknologi</h2>
-            <div class="w-16 h-1 bg-sky-500 mx-auto mb-12 rounded"></div>
+            <div class="w-16 h-1 bg-blue-500 mx-auto mb-12 rounded"></div>
             
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/90 shadow-md flex flex-col items-center">
-                    <i class="fas fa-microchip text-4xl text-sky-400 mb-3"></i>
+                <!-- Logika/Representasi Ikon untuk Perangkat Lunak -->
+                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/80 shadow-md flex flex-col items-center hover:bg-slate-800 transition">
+                    <i class="fas fa-microchip text-4xl text-blue-400 mb-3"></i>
                     <span class="font-medium text-sm text-white">eagleCAD</span>
                 </div>
-                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/90 shadow-md flex flex-col items-center">
-                    <i class="fas fa-drafting-compass text-4xl text-sky-400 mb-3"></i>
+                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/80 shadow-md flex flex-col items-center hover:bg-slate-800 transition">
+                    <i class="fas fa-drafting-compass text-4xl text-blue-400 mb-3"></i>
                     <span class="font-medium text-sm text-white">autoCAD</span>
                 </div>
-                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/90 shadow-md flex flex-col items-center">
-                    <i class="fas fa-bolt text-4xl text-sky-400 mb-3"></i>
+                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/80 shadow-md flex flex-col items-center hover:bg-slate-800 transition">
+                    <i class="fas fa-bolt text-4xl text-blue-400 mb-3"></i>
                     <span class="font-medium text-sm text-white">Proteus</span>
                 </div>
-                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/90 shadow-md flex flex-col items-center">
-                    <i class="fas fa-code text-4xl text-sky-400 mb-3"></i>
+                <div class="p-6 border border-slate-800 rounded-xl bg-slate-900/80 shadow-md flex flex-col items-center hover:bg-slate-800 transition">
+                    <i class="fas fa-code text-4xl text-blue-400 mb-3"></i>
                     <span class="font-medium text-sm text-white">Arduino IDE</span>
                 </div>
             </div>
@@ -186,20 +167,14 @@
     <!-- KONTAK SECTION -->
     <section id="kontak" class="py-20 px-6 max-w-4xl mx-auto text-center">
         <h2 class="text-3xl font-bold mb-4 text-white">Mari Terhubung</h2>
-        <div class="w-16 h-1 bg-sky-500 mx-auto mb-6 rounded"></div>
+        <div class="w-16 h-1 bg-blue-500 mx-auto mb-6 rounded"></div>
         <p class="text-slate-300 mb-8 max-w-lg mx-auto">Tertarik berkolaborasi dalam proyek elektronika atau pengembangan sistem? Jangan ragu untuk menghubungi saya.</p>
-        <a href="mailto:emailanda@example.com" class="inline-block bg-sky-600 text-white font-medium px-8 py-3 rounded-xl shadow-lg shadow-sky-900/50 hover:bg-sky-500 transition">Kirim Email</a>
-        
-        <div class="flex justify-center gap-6 mt-8 text-xl text-slate-300">
-            <a href="https://github.com/username-anda" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/username-anda" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/username-anda" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-twitter"></i></a>
-        </div>
+        <a href="mailto:emailanda@example.com" class="inline-block bg-blue-600 text-white font-medium px-8 py-3 rounded-xl shadow-lg shadow-blue-900/50 hover:bg-blue-500 transition">Kirim Email</a>
     </section>
 
     <!-- FOOTER -->
-    <footer class="py-8 bg-slate-950 text-slate-400 text-center text-sm border-t border-indigo-950">
-        <p>&copy; 2026 Aresbian Daret. Dibuat dengan HTML & Tailwind CSS.</p>
+    <footer class="py-8 bg-[#060913] text-slate-400 text-center text-sm border-t border-blue-950">
+        <p>&copy; 2026 Arestian Darell. Dibuat dengan HTML & Tailwind CSS.</p>
     </footer>
 
 </body>
